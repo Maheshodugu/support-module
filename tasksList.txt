@@ -1,0 +1,60 @@
+Support (Tickets) Module. 
+
+1) Add Menu of Support and Screen ref:- Users Module
+    i) Provide New Tickets and Pending Tickets Menus in the top.
+2)Setup Ui screens
+    i) List Screen with Ticket id, description, Status and Acrions (EDit, Delete)
+    ii) Create TIckets Screen
+    iii)Edit Tickets Screen
+    iv) Action Delete with Confirmation POPUP.
+3) Image Upload (Take a screenshop and drag and drop to add image for issue/Ticket).
+
+APIS
+
+1) Create Ticket API.
+2) List Show API.
+3) Edit API.
+4) Delete API.
+5) Tickets Priority API.
+6) Images Save API.
+
+Database Creation
+
+1) Create a table for Tickets 
+2) Master Table for Ticket priorities list.
+
+
+
+$servername = "mysql1-ny.realssl.com";
+$dbname = "bmp_prod";
+$username = "bmp_prod_usr";
+$password = "BrainyC@re2023";
+
+
+Rename - ticket to Issue
+
+Report Issue -- Raise Ticket
+New Issue -- New Ticket
+
+
+FTP Login (PROD)
+-------------------------
+server 	 : cloud.brainymed.com
+username : produsr
+password : DAdmin@2023 (D, A caps)
+
+
+
+-> Reopen is only for resolved issues
+Tracking add icon and show in Action
+add assign button in Tracking.
+
+https://codepen.io/scarulli/pen/bGGXdEZ
+
+
+Show Attached..
+
+
+git remote set-url origin https://git-repo/new-repository.git
+
+git remote set-url origin https://github.com/Maheshodugu/support-module.git
